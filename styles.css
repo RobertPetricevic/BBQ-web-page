@@ -66,18 +66,27 @@ h2 {
   background-color: #404040;
   background-image: url(./bbq.jpg);
   padding: 0 0.5em 2em;
-  display: flex;
-  flex-direction: column;
   background-size: cover;
   background-position: center;
+}
+
+.container-sec-a {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   min-height: 50vh;
+  border: 3px solid red;
 }
 
 /* ======= */
 
 .sec-b {
   padding: 2em 1em;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* ======================== */
@@ -105,9 +114,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
   }
-
-  .down-title {
-    align-self: flex-end;
+  .container-sec-a {
+    height: 100%;
   }
 }
 
